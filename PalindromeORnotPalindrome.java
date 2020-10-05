@@ -1,0 +1,21 @@
+
+public class PalindromeORnotPalindrome {
+	public static void main(String[] args) 
+	{ 
+		 System.out.println("program to find numbers is Palindrome OR not Palindrome :");
+		 int num =12321;
+		 int sum=0, reverse;
+		 int temp=num;
+		   
+		 while(num>0)
+		 {
+			 reverse=num%10;
+			 sum=(sum*10)+reverse;
+			 num=num/10;
+		 }
+		 if(temp==sum)
+			 System.out.println("The numbers is Palindrome");
+		 else
+			 System.out.println("The numbers is Not Palindrome");
+		 }
+}
