@@ -40,17 +40,17 @@ public class StringTreeSet {
 		 System.out.println("hashCode(): "+tree.hashCode());  // It returns an integer value which is the hashCode value for instance of the TreeSet.
 		
 		 System.out.println("Initial Set: "+tree);  
-         System.out.println("Reverse Set: "+tree.descendingSet());  
+         	 System.out.println("Reverse Set: "+tree.descendingSet());  
          
-         System.out.println("first(): "+tree.first());
-         System.out.println("last(): "+tree.last());
+         	 System.out.println("first(): "+tree.first());
+        	 System.out.println("last(): "+tree.last());
            
-         System.out.println("Head Set: "+tree.headSet("Mango Tree", true));    
-         System.out.println("TailSet: "+tree.tailSet("Coconut", false));
+       		 System.out.println("Head Set: "+tree.headSet("Mango Tree", true));    
+         	 System.out.println("TailSet: "+tree.tailSet("Coconut", false));
          
-         System.out.println("toString(): "+tree.toString());
+        	 System.out.println("toString(): "+tree.toString());
         
-         System.out.println("pollFirst(): " +tree.pollFirst());
+        	 System.out.println("pollFirst(): " +tree.pollFirst());
  		 System.out.println("pollLast(): " +tree.pollLast());
  		 
  		 System.out.println("remove(): " +tree.remove("Mango Tree"));
