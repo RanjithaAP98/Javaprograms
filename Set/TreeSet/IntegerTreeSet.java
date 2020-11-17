@@ -34,11 +34,11 @@ public class IntegerTreeSet {
 		 
 		 System.out.println("Floor value for 10: "+fibonaccinumber.floor(10));
 		 
-         System.out.println("first(): "+fibonaccinumber.first());
-         
-         System.out.println("last(): "+fibonaccinumber.last());  
+         	 System.out.println("first(): "+fibonaccinumber.first());
+          
+         	 System.out.println("last(): "+fibonaccinumber.last());  
         
-         System.out.println("pollFirst(): " +fibonaccinumber.pollFirst());
+         	 System.out.println("pollFirst(): " +fibonaccinumber.pollFirst());
          
  		 System.out.println("pollLast(): " +fibonaccinumber.pollLast());
  		 
