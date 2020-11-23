@@ -6,7 +6,7 @@ public class ArrayListExample {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Thread details are: " + " Id: "  + Thread.currentThread().getId() + 
+	System.out.println("Thread details are: " + " Id: "  + Thread.currentThread().getId() + 
 							   " Name: " + Thread.currentThread().getName());
 		
 		ArrayList<String> pLanguages = new ArrayList<String>();
